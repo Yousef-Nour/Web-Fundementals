@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Registration" content="Registration">
+    <title>Regestration Form</title>
+</head>
+
+<body>
+    <h1>My Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="1stName">First Name</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="1stName" name="firstname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="last_name">Last Name</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="last_name" name="lastname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password_confirmation">PW Confirm</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="password_confirmation" name="pw_confirm"></td>
+            </tr>
+
+            <tr>
+                <td><label for="birthday">Birthday</label></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+        </table>
+
+        <input type="radio" id="male" name="gender" value="male">Male
+
+        <input type="radio" id="female" name="gender" value="female">Female
+
+        <input type="radio" id="other" name="gender" value="other">Other <br><br>
+
+        <p>A short description about your self</p>
+        <textarea name="description"></textarea><br><br>
+
+        <label for="favorite_language">Favorite Language</label>
+        <select id="favorite_language">
+            <option value="JavaScript">JavaScript</option>
+            <option value="CSS">CSS</option>
+            <option value="php">php</option>
+            <option value="python" selected>Python</option>
+        </select><br><br>
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>

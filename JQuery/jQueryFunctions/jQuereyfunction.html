@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQFunction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style type="text/css">
+        
+        .red{
+            color:red;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="first">
+        <h1>AddClass</h1>
+        <p id="first_p">Click the button to add class "red" to this paragraph.</p>
+        <button class="first_button">AddClass</button>
+    </div>
+    <hr>
+    <div id="second">
+        <h1>Slidetoggle</h1>
+        <p>Click the button to Slidetoggle ahidden image.</p>
+        <img src="jQuery-Before-After-Image-Comparison-Plugin-Image-Reveal.jpg" alt="jQuery_photo">
+        <button class="second_button">Slidetoggle</button>
+    </div>
+    <hr>
+    <div id="third">
+        <h1>Append</h1>
+        <p id="third_p">Click the button to append a new paragraph.</p>
+        <button class="third_button">Append</button>
+    </div>
+    <script>
+            $('.first_button').click(function(){
+                $('#first_p').addClass('red');
+            })
+
+            $('.second_button').click(function(){
+                $('img').slideToggle();
+            })
+            $('.third_button').click(function(){
+                $('#third_p').append("new paragraph");
+            })
+        
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#container div{
+    width: 55px;
+    height: 55px;
+    
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+
+#container div:nth-child(n+21):nth-last-child(n+132),div:nth-child(n+40):nth-last-child(n+112), 
+div:nth-child(n+59):nth-last-child(n+93), div:nth-child(n+78):nth-last-child(n+74),
+div:nth-child(n+97):nth-last-child(n+55), div:nth-child(n+116):nth-last-child(n+36),
+div:nth-child(n+135):nth-last-child(n+17){
+    background-color: #689BFF;
+}
+
+#container div:nth-child(n+80):nth-last-child(n+64),div:nth-child(n+99):nth-last-child(n+45),
+div:nth-child(n+118):nth-last-child(n+26),div:nth-child(n+137):nth-last-child(n+7){
+    background-color: #FD9A98;
+}
+#container div:nth-child(n+38):nth-last-child(n+115), div:nth-child(n+52):nth-last-child(n+96),
+div:nth-child(n+71):nth-last-child(n+77),div:nth-child(n+90):nth-last-child(n+58),
+div:nth-child(n+109):nth-last-child(n+39),div:nth-child(n+128):nth-last-child(n+20),
+div:nth-child(n+147):nth-last-child(n+1){
+    background-color: #FECB00;
+}
+
+div#container{
+    display: flex;
+    width: 1168px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#sec div{
+    width: 55px;
+    height: 55px;
+    
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+div#sec{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#bottom .first_row{
+    width:245px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first_row h4{
+    width: 134px;
+    padding-top: 15px;
+    color: red;
+
+}
+#bottom{
+    display: flex;
+}
+
+.first_row h3{
+    width: 100px;
+    text-align: end;
+    padding-top: 15px;
+    color: red;
+
+}
+
+#container h3{
+    color: blue;
+}
+#container div:nth-child(n+1):nth-last-child(n+133),div:nth-child(n+39):nth-last-child(n+114),
+div:nth-child(n+58):nth-last-child(n+95), div:nth-child(n+77):nth-last-child(n+76),
+div:nth-child(n+96):nth-last-child(n+57),div:nth-child(n+115):nth-last-child(n+38)
+, div:nth-child(n+134):nth-last-child(n+19){
+    color: red;
+}
+
+#sec{
+    background-color: #1FCA21;
+}

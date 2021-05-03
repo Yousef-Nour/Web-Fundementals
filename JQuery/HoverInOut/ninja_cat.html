@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NinjaToCat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <style>
+    
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            height: 500px;
+            margin: auto;
+            
+        
+        }
+        img{
+            width: 60%;
+            height: 20%;
+            border: 2px solid black;
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="cat">
+        <img src='ninja0.png' alt='cat0.png' swap=''>
+        <img src='ninja1.png' alt='cat1.png' swap=''>
+        <img src='ninja2.png' alt='cat2.png' swap=''>
+        <img src='ninja3.png' alt='cat3.png' swap=''>
+        <img src='ninja4.png' alt='cat4.png' swap=''>
+
+
+        
+    </div>
+    <script>
+      
+        $('.cat').children('img').mouseover(function(){
+				$(this).attr('swap', $(this).attr('src'));
+				$(this).attr('src', $(this).attr('alt'));
+				$(this).attr('alt', $(this).attr('swap'));
+			});
+            $('.cat').children('img').mouseout(function(){
+				$(this).attr('swap', $(this).attr('src'));
+				$(this).attr('src', $(this).attr('alt'));
+				$(this).attr('alt', $(this).attr('swap'));
+			});
+        
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+sleet@NOUR MINGW64 ~
+$ pwd
+/c/Users/sleet
+
+sleet@NOUR MINGW64 ~
+$ cd desktop
+
+sleet@NOUR MINGW64 ~/desktop
+$ mkdir test
+
+sleet@NOUR MINGW64 ~/desktop
+$ cd test
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ touch index.html
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ touch style.css
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ touch comand.txt
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ cp index.html index_2.html
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ cd ..
+
+sleet@NOUR MINGW64 ~/desktop
+$ mkdir destination
+
+sleet@NOUR MINGW64 ~/desktop
+$ mv ~/Desktop/test/index_2.html destination
+
+sleet@NOUR MINGW64 ~/desktop
+$ pwd
+/c/Users/sleet/desktop
+
+sleet@NOUR MINGW64 ~/desktop
+$ cd test
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ rm style.css
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ re -rf destination
+bash: re: command not found
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ re -rf directory_destination
+bash: re: command not found
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ rm -rf destination
+
+sleet@NOUR MINGW64 ~/desktop/test
+$  rm -rf destination
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ pwd
+/c/Users/sleet/desktop/test
+
+sleet@NOUR MINGW64 ~/desktop/test
+$ cd ..
+
+sleet@NOUR MINGW64 ~/desktop
+$ rm rf destination
+rm: cannot remove 'rf': No such file or directory
+rm: cannot remove 'destination': Is a directory
+
+sleet@NOUR MINGW64 ~/desktop
+$ rm -rf destination
+
+sleet@NOUR MINGW64 ~/desktop
+$
